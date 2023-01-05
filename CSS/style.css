@@ -1,0 +1,273 @@
+/* Formatacao geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  
+  /* início header */
+  
+  header {
+    background: #160805;
+    height: 150px;
+  }
+  
+  .container-header {
+    width: 1200px;
+    /* height: 50px; */
+    margin: 0 auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .museu {
+    color: rgb(228, 221, 221);
+  }
+  
+  .nacional {
+    color: rgb(207, 144, 25);
+  }
+  
+  .museu,
+  .nacional {
+    font-size: 30px;
+  }
+  
+  /* continuação header - início navegação */
+  
+  nav ul {
+    display: flex;
+    padding-top: 5px;
+    padding-right: 25px;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(207, 144, 25);
+    padding: 10px;
+  }
+  
+  nav ul a:hover {
+    color: rgb(6, 83, 6);
+  }
+  
+  /* formatação container */
+  
+  .container-principal {
+    width: 1200px;
+    height: 420px;
+    margin: 0 auto;
+  }
+  
+  .img-main {  /* imagem container principal - museu.png */
+    top: 100px;
+    position: absolute;
+  }
+
+  .img-segunda-main { /*imagem container principal - depoimento.png */
+    top: 100px;
+    left: 865px;
+    position: absolute;
+  }
+
+  /* inserindo vídeo */
+ .texto-video {
+    top: 480px;
+    position: absolute;
+    margin-left: 20px;
+    color: rgb(6, 83, 6);
+    
+  }
+
+  .video {
+    top: 510px;
+    position: absolute;
+    margin-left: 20px;
+  }
+
+  /* inserindo mapa */
+  .texto-mapa {
+    top: 480px;
+    left: 480px;
+    position: absolute;
+    color: rgb(6, 83, 6);
+  }
+
+  .mapa {
+    top: 510px;
+    left: 480px;
+    position: absolute;
+  }
+
+  /* inserindo caixa de reserva e disponibilidade */
+  .reserva {
+    width: 410px;
+    height: 150px;
+    background: #ada484;
+    top: 510px;
+    left: 865px;
+    position: absolute;
+    padding: 7px 15px;
+  }
+
+  section h4 {
+    color: rgb(102, 71, 14);
+    padding-bottom: 10px;
+  }
+
+  section label {
+    margin-left: 12px;
+  }
+
+  .botão-reserva {
+    width: 350px;
+    height: 35px;
+    background: #857c60;
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+  }
+
+  .botão-reserva p {
+    color: #fff;
+    text-align: center;
+    padding-top: 7px;
+  }
+
+  /* inserindo galeria de fotos - fundo */
+  .galeria-fundo {
+    width: 410px;
+    height: 380px;
+    background: rgb(226, 217, 188);
+    top: 650px;
+    left: 865px;
+    position: absolute;
+    padding: 15px 19px;
+  }
+
+  .fotos-fundo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .img1, .img2 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  /* continuação galeria - fotos principais */
+
+  .img1-principal {
+    position: absolute;
+    bottom: 222px;
+    left: 65px;
+    cursor: pointer;
+  }
+
+  .img2-principal {
+    position: absolute;
+    left: 251px;
+    bottom: 222px;
+    cursor: pointer;
+  }
+
+  .img3-principal {
+    position: absolute;
+    left: 65px;
+    bottom: 60px;
+    cursor: pointer;
+  }
+
+  .img4-principal {
+    position: absolute;
+    left: 251px;
+    bottom: 60px;
+    cursor: pointer;
+  }
+
+  /* início lista para exposições */
+
+  .exposicoes {
+    margin-top: 580px;
+    margin-left: 20px;
+  }
+
+  .exposicoes h4 {
+    color: rgb(6, 83, 6);
+  }
+
+  .exposicoes li {
+    margin-left: 40px;
+    font-size: 13.5px;
+  }
+
+  .exposicoes a {
+    text-decoration: none;
+    color: rgb(201, 141, 31);
+  }
+
+
+  /* início section para "200 anos de história" */
+
+  .historia {
+    top: 730px;
+    left: 480px;
+    position: absolute;
+  }
+
+  .historia p {
+    font-size: 13.5px;
+    padding-bottom: 10px;
+  }
+
+  .historia h4 {
+    color: rgb(6, 83, 6);
+  }
+
+  .historia a {
+    color: rgb(201, 141, 31);
+    text-decoration: none;
+    font-size: 13.5px;
+  }
+
+  /* início rodapé */
+
+  footer {
+    margin-top: 190px;
+  }
+
+  footer ul {
+    display: flex;
+    margin-left: 300px;
+  }
+
+  footer ul li {
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  footer ul li a {
+    text-decoration: none;
+    color: rgb(201, 141, 31);
+  }
+
+  footer span {
+    color: rgb(201, 141, 31);
+  }
+
+  footer p {
+    margin-top: 7px;
+    margin-left: 365px;
+  }
